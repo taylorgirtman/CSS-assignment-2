@@ -10,9 +10,12 @@ body {
 }
 img {
     max-width: 100%; /* DO NOT delete or change this line */
-    padding-top: 3rem;
+    padding-top: 1rem;
     display: block;
-    margin: 0 auto;
+    margin: 1rem;
+      margin-left: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
 }
 header {
   background-color: #333;
@@ -33,23 +36,20 @@ nav ul li {
   margin-right: 1rem;
   text-transform: uppercase;
 }
+
 .text {
-  background-color: #fff;
   color: #000;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
   font-size: 1em;
   line-height: normal;
-  margin: 3rem;
-  margin-top: 1rem;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin: 1rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
 }
 .photo p {
   font-size: 1em;
-  text-align: center;
+  text-align: left;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 #cougar {
   background-color: #FFD5AE;
@@ -63,19 +63,16 @@ nav ul li {
 section {
   max-width: 100%;
   box-sizing: border-box;
-  width: 600px;
+  width: 50%;
 }
 h1 {
   color: #fff;
 }
-h2 {
-  text-align: center;
-}
 article {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin: 0;
 }
 footer {
@@ -116,7 +113,7 @@ a {
     color: #379CB2;
 }
 a:hover {
-    color: #82E8FF;
+    color: #030303;
 }
 
 nav ul li a {
@@ -124,10 +121,15 @@ nav ul li a {
     text-decoration: none;
   }
 
+nav ul li a:hover {
+      color: #ffd863;
+      text-decoration: none;
+    }
+
 #tiger a{
-  color: #030303;
+  color: #ffd863;
 }
 
 #tiger a:hover{
-  color: #ffd863;
+  color: #030303;
 }
